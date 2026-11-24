@@ -1,0 +1,17 @@
+# --- Fichero de comandos de prueba para el Auditor ---
+
+# Tareas simples de eco (funcionarán bien - código 0)
+cmd /c echo "Iniciando auditoria de sistemas"
+cmd /c echo "Procesando bloque principal"
+
+# Una orden con un pequeño argumento
+cmd /c echo "Comprobando entorno de ejecucion correcto"
+
+# Puedes añadir comandos del sistema operativo (en Linux/Mac usa sleep, en Windows timeout)
+# Si estás en Linux:
+cmd /c sleep 2
+
+# Si estás en Windows, puedes usar esto en su lugar:
+# timeout /t 2
+cmd /c noexistesssss
+cmd /c echo "Auditoria de procesos finalizada con exito"

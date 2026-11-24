@@ -1,0 +1,8 @@
+# Este es un comentario de prueba, el supervisor debe ignorarlo
+
+ping 127.0.0.1 -n 6
+ping 127.0.0.1 -n 4
+ping 127.0.0.1 -n 8
+# Otra línea comentada para comprobar el filtro
+ping 127.0.0.1 -n 3
+ping 127.0.0.1 -n 5
